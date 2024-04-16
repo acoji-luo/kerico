@@ -2,6 +2,10 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+.section {
+    margin-bottom: 144px;
+}
+
 .container {
     max-width: 1440px;
     width: 100%;
@@ -11,7 +15,6 @@ body {
 /* header */
 
 .header {
-    margin-bottom: 182px;
     padding: 33px 0 33px 0;
     border-bottom: 1px solid #E9EEF2;
 }
@@ -55,11 +58,16 @@ body {
 
 /* intro */
 
+.section-intro {
+    border-bottom: 1px solid #E9EEF2;
+}
+
 .intro {
     position: relative;
 }
 
 .intro-inner {
+    padding: 182px 0 182px 0;
     position: relative;
     display: flex;
     width: 550px;
@@ -69,6 +77,7 @@ body {
 }
 
 .intro__background {
+    margin-top: 186px;
     position: absolute;
     width: 770px;
     height: 688px;
@@ -77,7 +86,6 @@ body {
     border-radius: 6px;
     top: -150px;
     right: 0;
-
 }
 
 .intro__title {
@@ -101,4 +109,111 @@ body {
     color: #FFF;
     font-size: 16px;
     font-weight: 600;
+    cursor: pointer;
+}
+
+/* health */
+
+.health {
+    padding: 80px 120px 80px 120px;
+    background-color: #F6F8FB;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* journey */
+
+.journey {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.journey__subtitle {
+    font-size: 24px;
+    font-weight: 600;
+    color: #45A1F5;
+    letter-spacing: -0.48px;
+}
+
+.journey__title {
+    width: 550px;
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 140%;
+    letter-spacing: -1.84px;
+}
+
+.journey__text {
+    margin-bottom: 48px;
+    width: 550px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: -0.36px;
+    color: #4F577B;
+}
+
+.journey__background {
+    width: 550px;
+    height: 411px;
+    border-radius: 4px;
+    background: url(../img/backgrounds/journey.png) lightgray 50% / cover no-repeat;
+}
+
+/* benefits */
+
+.benefits {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    background-color: #FFF;
+}
+
+.benefits__item {
+    width: 470px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.benefits__wrapper {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.benefits__title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 140%;
+    letter-spacing: -0.48px;
+    color: #0E1121;
+}
+
+.benefits__text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: -0.36px;
+    color: #4F577B;
+}
+
+.benefits__btn {
+    margin-top: 16px;
+    display: flex;
+    padding: 14px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 2px;
+    background-color: #2C4FA3;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -0.32px;
+    cursor: pointer;
 }
