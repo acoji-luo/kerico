@@ -325,3 +325,38 @@ body {
     font-weight: 600;
     cursor: pointer;
 }
+
+/* drivers */
+
+.drivers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.drivers__background {
+    width: 670px;
+    height: 944px;
+    border-radius: 6px;
+    background: url(../img/backgrounds/drivers.png) lightgray 50% / cover no-repeat;
+}
+
+.drivers__subtitle {
+    margin-bottom: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #45A1F5;
+}
+
+.drivers__title {
+    margin-bottom: 48px;
+    width: 550px;
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 140%;
+    letter-spacing: -1.84px;
+    color: #0E1121;
+}
+
+.drivers__benefits {
+    padding: 0;
+}
