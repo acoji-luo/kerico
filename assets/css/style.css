@@ -28,6 +28,10 @@ body {
 	max-width: 1200px;
 }
 
+.disable-scroll {
+	overflow: hidden;
+}
+
 /* header */
 
 .header {
@@ -777,10 +781,11 @@ body {
 	/* intro */
 
 	.intro {
+		margin-top: 74px;
+		background-size: 328px 298px;
+		height: 600px;
 		padding: 48px 0 48px 0;
-		background-position: bottom center;
-		background-size: cover;
-		height: 293px;
+		background-position: bottom 10% center;
 	}
 
 	.intro-inner {
