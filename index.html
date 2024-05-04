@@ -1,408 +1,769 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+		/>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
 
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+		<link rel="stylesheet" href="assets/css/reset.css" />
+		<link rel="stylesheet" href="assets/css/style.css" />
 
-    <title>Kerico</title>
-</head>
-<body>
-    <header class="header">
-        <div class="container">
-            <div class="header-inner">
-                <img class="header__img" src="assets/img/logo/main-logo.svg">
-                <nav class="nav">
-                    <ul class="nav-wrapper">
-                        <li class="nav__list"><a class="nav__link" href="#">About us</a></li>
-                        <li class="nav__list"><a class="nav__link" href="#">Services</a></li>
-                        <li class="nav__list"><a class="nav__link" href="#">Partners</a></li>
-                        <li class="nav__list"><a class="nav__link" href="#">Drivers</a></li>
-                        <li class="nav__list"><a class="nav__link" href="#">Patients/Caregivers</a></li>
-                        <li class="nav__list"><a class="nav__link" href="#">Contact Us</a></li>
-                        <li class="nav__list"><button class="nav__btn">BOOK A TRIP</button></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </header>
+		<title>Kerico</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<div class="container">
+					<div class="header-inner">
+						<img class="header__img" src="assets/img/logo/main-logo.svg" />
+						<nav class="nav">
+							<ul class="nav__wrapper">
+								<li class="nav__list nav-burger__list">
+									<a class="nav__link nav-burger__link" href="#">About us</a>
+								</li>
+								<li class="nav__list nav-burger__list">
+									<a class="nav__link nav-burger__link" href="#">Services</a>
+								</li>
+								<li class="nav__list nav-burger__list">
+									<a class="nav__link nav-burger__link" href="#">Partners</a>
+								</li>
+								<li class="nav__list nav-burger__list">
+									<a class="nav__link nav-burger__link" href="#">Drivers</a>
+								</li>
+								<li class="nav__list nav-burger__list">
+									<a class="nav__link nav-burger__link" href="#"
+										>Patients/Caregivers</a
+									>
+								</li>
+								<li class="nav__list nav-burger__list">
+									<a class="nav__link nav-burger__link" href="#">Contact Us</a>
+								</li>
+								<li class="nav__list nav-burger__list">
+									<button class="nav__btn nav-burger__btn">BOOK A TRIP</button>
+								</li>
+							</ul>
+						</nav>
+						<button class="burger-menu">
+							<span></span>
+						</button>
+					</div>
+				</div>
+			</header>
 
-    <section class="section section-intro">
-        <div class="container">
-            <div class="intro">
-                <div class="intro-inner">
-                    <h2 class="intro__title">
-                        Compassionate and Reliable Care, Every Mile of the Way. 
-                    </h2>
-                    <button class="intro__btn">Book Now <img src="assets/img/icons/intro-arrow.svg"></button>
-                </div>
-                <div class="intro__background"></div>
-            </div>
-        </div>
-    </section>
+			<main class="main">
+				<section class="section section-intro">
+					<div class="container">
+						<div class="intro">
+							<div class="intro-inner">
+								<h2 class="intro__title">
+									Compassionate and Reliable Care, Every Mile of the Way. 
+								</h2>
+								<button class="intro__btn">
+									Book Now <img src="assets/img/icons/intro-arrow.svg" />
+								</button>
+							</div>
+						</div>
+					</div>
+				</section>
 
-    <section class="section">
-        <div class="container">
-            <div class="health">
-                <div class="journey">
-                    <h3 class="journey__subtitle">For Patients and Caregivers</h3>
-                    <h2 class="journey__title">Your journey to better health starts here</h2>
-                    <div class="journey__text">
-                        Let us take the stress out of transportation so you can focus on what truly matters – your health. Our friendly drivers are here to help you every step of the way.
-                    </div>
-                    <div class="journey__background"></div>
-                </div>
-                <div class="benefits">
-                    <div class="benefits__item">
-                        <div class="benefits__wrapper">
-                            <img class="benefits__logo" src="assets/img/icons/benefits/mindfulness 1.svg">
-                            <div class="benefits__title">Stress-free travel</div>
-                        </div>
-                        <div class="benefits__text">
-                            Relax and focus on your well-being. We handle the driving, door-to-door.
-                        </div>
-                    </div>
-                    <div class="benefits__item">
-                        <div class="benefits__wrapper">
-                            <img class="benefits__logo" src="assets/img/icons/benefits/clock.svg">
-                            <div class="benefits__title">Reliable appointments</div>
-                        </div>
-                        <div class="benefits__text">
-                            Never miss a doctor's visit or dialysis treatment. We get you there on time, every time.
-                        </div>
-                    </div>
-                    <div class="benefits__item">
-                        <div class="benefits__wrapper">
-                            <img class="benefits__logo" src="assets/img/icons/benefits/charity 1.svg">
-                            <div class="benefits__title">Compassionate care</div>
-                        </div>
-                        <div class="benefits__text">
-                            Our friendly drivers are dedicated to your safety and comfort.
-                        </div>
-                    </div>
-                    <div class="benefits__item">
-                        <div class="benefits__wrapper">
-                            <img class="benefits__logo" src="assets/img/icons/benefits/driving.svg">
-                            <div class="benefits__title">Comfortable rides</div>
-                        </div>
-                        <div class="benefits__text">
-                            Enjoy clean, well-maintained vehicles with accessibility features.
-                        </div>
-                    </div>
-                    <div class="benefits__btn">Book your ride today! <img src="assets/img/icons/intro-arrow.svg"></div>
-                </div>
-            </div>
-        </div>
-    </section>
+				<section class="section">
+					<div class="container">
+						<div class="health">
+							<div class="journey">
+								<h3 class="journey__subtitle">For Patients and Caregivers</h3>
+								<h2 class="journey__title">
+									Your journey to better health starts here
+								</h2>
+								<div class="journey__text">
+									Let us take the stress out of transportation so you can focus
+									on what truly matters – your health. Our friendly drivers are
+									here to help you every step of the way.
+								</div>
+								<div class="journey__background"></div>
+							</div>
+							<div class="benefits">
+								<div class="benefits__item">
+									<div class="benefits__wrapper">
+										<img
+											class="benefits__logo"
+											src="assets/img/icons/benefits/mindfulness 1.svg"
+										/>
+										<div class="benefits__title">Stress-free travel</div>
+									</div>
+									<div class="benefits__text">
+										Relax and focus on your well-being. We handle the driving,
+										door-to-door.
+									</div>
+								</div>
+								<div class="benefits__item">
+									<div class="benefits__wrapper">
+										<img
+											class="benefits__logo"
+											src="assets/img/icons/benefits/clock.svg"
+										/>
+										<div class="benefits__title">Reliable appointments</div>
+									</div>
+									<div class="benefits__text">
+										Never miss a doctor's visit or dialysis treatment. We get
+										you there on time, every time.
+									</div>
+								</div>
+								<div class="benefits__item">
+									<div class="benefits__wrapper">
+										<img
+											class="benefits__logo"
+											src="assets/img/icons/benefits/charity 1.svg"
+										/>
+										<div class="benefits__title">Compassionate care</div>
+									</div>
+									<div class="benefits__text">
+										Our friendly drivers are dedicated to your safety and
+										comfort.
+									</div>
+								</div>
+								<div class="benefits__item">
+									<div class="benefits__wrapper">
+										<img
+											class="benefits__logo"
+											src="assets/img/icons/benefits/driving.svg"
+										/>
+										<div class="benefits__title">Comfortable rides</div>
+									</div>
+									<div class="benefits__text">
+										Enjoy clean, well-maintained vehicles with accessibility
+										features.
+									</div>
+								</div>
+								<div class="benefits__btn">
+									Book your ride today!
+									<img src="assets/img/icons/intro-arrow.svg" />
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
 
-    <section class="section">
-        <div class="container container-small">
-            <div class="partner">
-                <div class="partner__top">
-                    <h3 class="partner__subtitle">For Partners</h3>
-                    <h2 class="partner__title">Partner with us for seamless</h2>
-                    <h2 class="partner__title">patient transportation</h2>
-                    <div class="partner__text">Let's work together to make patient transportation a breeze.</div>
-                </div>
-                <div class="offers">
-                    <div class="offers__item">
-                        <img class="offers__logo" src="assets/img/icons/offers/management (1) 1.svg">
-                        <hr class="offers__line">
-                        <div class="offers__title">Dedicated account manager</div>
-                        <div class="offers__text">
-                            Get personalized support and communication every step of the way.
-                        </div>
-                    </div>
-                    <div class="offers__item">
-                        <img class="offers__logo" src="assets/img/icons/offers/handshake 1.svg">
-                        <hr class="offers__line">
-                        <div class="offers__title">Community partnership</div>
-                        <div class="offers__text">
-                            Partner with a company committed to serving your community.
-                        </div>
-                    </div>
-                    <div class="offers__item">
-                        <img class="offers__logo" src="assets/img/icons/offers/integration 1.svg">
-                        <hr class="offers__line">
-                        <div class="offers__title">Seamless integration</div>
-                        <div class="offers__text">
-                            Easy to get started.
-                        </div>
-                    </div>
-                    <div class="offers__item">
-                        <img class="offers__logo" src="assets/img/icons/offers/delivery 1.svg">
-                        <hr class="offers__line">
-                        <div class="offers__title">Reliable transportation solutions</div>
-                        <div class="offers__text">
-                            Ensure on-time door-to-door transportation for your needs all the time.
-                        </div>
-                    </div>
-                    <div class="offers__item">
-                        <img class="offers__logo" src="assets/img/icons/offers/trend-down.svg">
-                        <hr class="offers__line">
-                        <div class="offers__title">Reduced stress and costs</div>
-                        <div class="offers__text">
-                            Get rid of transportation logistics and system costs. Create more value by focusing on what you do best.
-                        </div>
-                    </div>
-                    <div class="offers__item">
-                        <div class="offers__title offers__title-color">Partner with us today!</div>
-                        <button class="offers__btn">Get in Touch <img src="assets/img/icons/intro-arrow.svg"></button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+				<section class="section">
+					<div class="container container_small">
+						<div class="partner">
+							<div class="partner__top">
+								<h3 class="partner__subtitle">For Partners</h3>
+								<h2 class="partner__title">Partner with us for seamless</h2>
+								<h2 class="partner__title">patient transportation</h2>
+								<div class="partner__text">
+									Let's work together to make patient transportation a breeze.
+								</div>
+							</div>
+							<div class="offers">
+								<div class="offers__item">
+									<img
+										class="offers__logo"
+										src="assets/img/icons/offers/management (1) 1.svg"
+									/>
+									<hr class="offers__line" />
+									<div class="offers__title">Dedicated account manager</div>
+									<div class="offers__text">
+										Get personalized support and communication every step of the
+										way.
+									</div>
+								</div>
+								<div class="offers__item">
+									<img
+										class="offers__logo"
+										src="assets/img/icons/offers/handshake 1.svg"
+									/>
+									<hr class="offers__line" />
+									<div class="offers__title">Community partnership</div>
+									<div class="offers__text">
+										Partner with a company committed to serving your community.
+									</div>
+								</div>
+								<div class="offers__item">
+									<img
+										class="offers__logo"
+										src="assets/img/icons/offers/integration 1.svg"
+									/>
+									<hr class="offers__line" />
+									<div class="offers__title">Seamless integration</div>
+									<div class="offers__text">Easy to get started.</div>
+								</div>
+								<div class="offers__item">
+									<img
+										class="offers__logo"
+										src="assets/img/icons/offers/delivery 1.svg"
+									/>
+									<hr class="offers__line" />
+									<div class="offers__title">
+										Reliable transportation solutions
+									</div>
+									<div class="offers__text">
+										Ensure on-time door-to-door transportation for your needs
+										all the time.
+									</div>
+								</div>
+								<div class="offers__item">
+									<img
+										class="offers__logo"
+										src="assets/img/icons/offers/trend-down.svg"
+									/>
+									<hr class="offers__line" />
+									<div class="offers__title">Reduced stress and costs</div>
+									<div class="offers__text">
+										Get rid of transportation logistics and system costs. Create
+										more value by focusing on what you do best.
+									</div>
+								</div>
+								<div class="offers__item">
+									<div class="offers__title offers__title-color">
+										Partner with us today!
+									</div>
+									<button class="offers__btn">
+										Get in Touch <img src="assets/img/icons/intro-arrow.svg" />
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
 
-    <section class="section">
-        <div class="container">
-            <div class="drivers">
-                <div class="drivers__background"></div>
-                <div class="drivers__join">
-                    <h3 class="drivers__subtitle">For Drivers</h3>
-                    <h2 class="drivers__title">Join our team of dedicated professionals</h2>
+				<section class="section">
+					<div class="container">
+						<div class="drivers">
+							<div class="drivers__background"></div>
+							<div class="drivers__join">
+								<h3 class="drivers__subtitle">For Drivers</h3>
+								<h2 class="drivers__title">
+									Join our team of dedicated professionals
+								</h2>
 
-                    <div class="benefits drivers__benefits">
-                        <div class="benefits__item">
-                            <div class="benefits__wrapper">
-                                <img class="benefits__logo" src="assets/img/icons/drivers/calendar-edit.svg">
-                                <div class="benefits__title">Flexible work schedule</div>
-                            </div>
-                            <div class="benefits__text">
-                                Choose hours that fit your life. 
-                            </div>
-                        </div>
-                        <div class="benefits__item">
-                            <div class="benefits__wrapper">
-                                <img class="benefits__logo" src="assets/img/icons/drivers/optimistic 1.svg">
-                                <div class="benefits__title">Positive Impact</div>
-                            </div>
-                            <div class="benefits__text">
-                                Help people access essential services with care and respect. Make a difference in your community.
-                            </div>
-                        </div>
-                        <div class="benefits__item">
-                            <div class="benefits__wrapper">
-                                <img class="benefits__logo" src="assets/img/icons/drivers/dollar-square.svg">
-                                <div class="benefits__title">Competitive pay and benefits</div>
-                            </div>
-                            <div class="benefits__text">
-                                Earn while doing rewarding work. We value our driver community.
-                            </div>
-                        </div>
-                        <div class="benefits__item">
-                            <div class="benefits__wrapper">
-                                <img class="benefits__logo" src="assets/img/icons/drivers/verify.svg">
-                                <div class="benefits__title">Be successful</div>
-                            </div>
-                            <div class="benefits__text">
-                                We strive to provide comprehensive training and a hassle-free driving experience.
-                            </div>
-                        </div>
-                        <div class="benefits__item">
-                            <div class="benefits__wrapper">
-                                <img class="benefits__logo" src="assets/img/icons/drivers/social-support 1.svg">
-                                <div class="benefits__title">Join our community</div>
-                            </div>
-                            <div class="benefits__text">
-                                Apply today and start making a difference
-                            </div>
-                        </div>
-                        <div class="benefits__btn">Apply Now <img src="assets/img/icons/intro-arrow.svg"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+								<div class="benefits drivers__benefits">
+									<div class="benefits__item">
+										<div class="benefits__wrapper">
+											<img
+												class="benefits__logo"
+												src="assets/img/icons/drivers/calendar-edit.svg"
+											/>
+											<div class="benefits__title">Flexible work schedule</div>
+										</div>
+										<div class="benefits__text">
+											Choose hours that fit your life. 
+										</div>
+									</div>
+									<div class="benefits__item">
+										<div class="benefits__wrapper">
+											<img
+												class="benefits__logo"
+												src="assets/img/icons/drivers/optimistic 1.svg"
+											/>
+											<div class="benefits__title">Positive Impact</div>
+										</div>
+										<div class="benefits__text">
+											Help people access essential services with care and
+											respect. Make a difference in your community.
+										</div>
+									</div>
+									<div class="benefits__item">
+										<div class="benefits__wrapper">
+											<img
+												class="benefits__logo"
+												src="assets/img/icons/drivers/dollar-square.svg"
+											/>
+											<div class="benefits__title">
+												Competitive pay and benefits
+											</div>
+										</div>
+										<div class="benefits__text">
+											Earn while doing rewarding work. We value our driver
+											community.
+										</div>
+									</div>
+									<div class="benefits__item">
+										<div class="benefits__wrapper">
+											<img
+												class="benefits__logo"
+												src="assets/img/icons/drivers/verify.svg"
+											/>
+											<div class="benefits__title">Be successful</div>
+										</div>
+										<div class="benefits__text">
+											We strive to provide comprehensive training and a
+											hassle-free driving experience.
+										</div>
+									</div>
+									<div class="benefits__item">
+										<div class="benefits__wrapper">
+											<img
+												class="benefits__logo"
+												src="assets/img/icons/drivers/social-support 1.svg"
+											/>
+											<div class="benefits__title">Join our community</div>
+										</div>
+										<div class="benefits__text">
+											Apply today and start making a difference
+										</div>
+									</div>
+									<div class="benefits__btn">
+										Apply Now <img src="assets/img/icons/intro-arrow.svg" />
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
 
-    <section class="section">
-        <div class="container container-small">
-            <div class="community">
-                <div class="community__header">
-                    <h2 class="community__title">What our community says</h2>
-                    <div class="community__text">Hear from the people who trust us most</div>
-                </div>
+				<section class="section">
+					<div class="container container_small">
+						<div class="community">
+							<div class="community__header">
+								<h2 class="community__title">What our community says</h2>
+								<div class="community__text">
+									Hear from the people who trust us most
+								</div>
+							</div>
 
-                <div class="reviews">
-                    <div class="swiper reviews-swiper">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="reviews__wrapper">
-                                    <div class="reviews__item">
-                                        <div class="reviews__text">
-                                            “Jane, my driver, is always so kind and patient. He makes getting to my dialysis appointments stress-free."
-                                        </div>
-                                        <div class="reviews__user">
-                                            <div class="reviews__name">Rider</div>
-                                            <div class="reviews__address">Jane, Houston, TX</div>
-                                        </div>
-                                    </div>
-        
-                                    <div class="reviews__item">
-                                        <div class="reviews__text">
-                                            “Jane, my driver, is always so kind and patient. He makes getting to my dialysis appointments stress-free."
-                                        </div>
-                                        <div class="reviews__user">
-                                            <div class="reviews__name">Rider</div>
-                                            <div class="reviews__address">Jane, Houston, TX</div>
-                                        </div>
-                                    </div>
+							<div class="reviews">
+								<div class="swiper reviews-swiper">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<div class="reviews__wrapper">
+												<div class="reviews__item">
+													<div class="reviews__text">
+														“Jane, my driver, is always so kind and patient. He
+														makes getting to my dialysis appointments
+														stress-free."
+													</div>
+													<div class="reviews__user">
+														<div class="reviews__name">Rider</div>
+														<div class="reviews__address">
+															Jane, Houston, TX
+														</div>
+													</div>
+												</div>
 
-                                    <div class="reviews__item">
-                                        <div class="reviews__text">
-                                            “Jane, my driver, is always so kind and patient. He makes getting to my dialysis appointments stress-free."
-                                        </div>
-                                        <div class="reviews__user">
-                                            <div class="reviews__name">Rider</div>
-                                            <div class="reviews__address">Jane, Houston, TX</div>
-                                        </div>
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                            
-                            <div class="swiper-slide">
-                                <div class="reviews__wrapper">
-                                    <div class="reviews__item">
-                                        <div class="reviews__text">
-                                            “Jane, my driver, is always so kind and patient. He makes getting to my dialysis appointments stress-free."
-                                        </div>
-                                        <div class="reviews__user">
-                                            <div class="reviews__name">Rider</div>
-                                            <div class="reviews__address">Jane, Houston, TX</div>
-                                        </div>
-                                    </div>
-        
-                                    <div class="reviews__item">
-                                        <div class="reviews__text">
-                                            “Jane, my driver, is always so kind and patient. He makes getting to my dialysis appointments stress-free."
-                                        </div>
-                                        <div class="reviews__user">
-                                            <div class="reviews__name">Rider</div>
-                                            <div class="reviews__address">Jane, Houston, TX</div>
-                                        </div>
-                                    </div>
+												<div class="reviews__item">
+													<div class="reviews__text">
+														“Jane, my driver, is always so kind and patient. He
+														makes getting to my dialysis appointments
+														stress-free."
+													</div>
+													<div class="reviews__user">
+														<div class="reviews__name">Rider</div>
+														<div class="reviews__address">
+															Jane, Houston, TX
+														</div>
+													</div>
+												</div>
 
-                                    <div class="reviews__item">
-                                        <div class="reviews__text">
-                                            “Jane, my driver, is always so kind and patient. He makes getting to my dialysis appointments stress-free."
-                                        </div>
-                                        <div class="reviews__user">
-                                            <div class="reviews__name">Rider</div>
-                                            <div class="reviews__address">Jane, Houston, TX</div>
-                                        </div>
-                                    </div>
-                                    
-                                </div>
-                            </div>
+												<div class="reviews__item">
+													<div class="reviews__text">
+														“Jane, my driver, is always so kind and patient. He
+														makes getting to my dialysis appointments
+														stress-free."
+													</div>
+													<div class="reviews__user">
+														<div class="reviews__name">Rider</div>
+														<div class="reviews__address">
+															Jane, Houston, TX
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
 
-                            <div class="swiper-slide">
-                                <div class="reviews__wrapper">
-                                    <div class="reviews__item">
-                                        <div class="reviews__text">
-                                            “Jane, my driver, is always so kind and patient. He makes getting to my dialysis appointments stress-free."
-                                        </div>
-                                        <div class="reviews__user">
-                                            <div class="reviews__name">Rider</div>
-                                            <div class="reviews__address">Jane, Houston, TX</div>
-                                        </div>
-                                    </div>
-        
-                                    <div class="reviews__item">
-                                        <div class="reviews__text">
-                                            “Jane, my driver, is always so kind and patient. He makes getting to my dialysis appointments stress-free."
-                                        </div>
-                                        <div class="reviews__user">
-                                            <div class="reviews__name">Rider</div>
-                                            <div class="reviews__address">Jane, Houston, TX</div>
-                                        </div>
-                                    </div>
+										<div class="swiper-slide">
+											<div class="reviews__wrapper">
+												<div class="reviews__item">
+													<div class="reviews__text">
+														“Jane, my driver, is always so kind and patient. He
+														makes getting to my dialysis appointments
+														stress-free."
+													</div>
+													<div class="reviews__user">
+														<div class="reviews__name">Rider</div>
+														<div class="reviews__address">
+															Jane, Houston, TX
+														</div>
+													</div>
+												</div>
 
-                                    <div class="reviews__item">
-                                        <div class="reviews__text">
-                                            “Jane, my driver, is always so kind and patient. He makes getting to my dialysis appointments stress-free."
-                                        </div>
-                                        <div class="reviews__user">
-                                            <div class="reviews__name">Rider</div>
-                                            <div class="reviews__address">Jane, Houston, TX</div>
-                                        </div>
-                                    </div>
+												<div class="reviews__item">
+													<div class="reviews__text">
+														“Jane, my driver, is always so kind and patient. He
+														makes getting to my dialysis appointments
+														stress-free."
+													</div>
+													<div class="reviews__user">
+														<div class="reviews__name">Rider</div>
+														<div class="reviews__address">
+															Jane, Houston, TX
+														</div>
+													</div>
+												</div>
 
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+												<div class="reviews__item">
+													<div class="reviews__text">
+														“Jane, my driver, is always so kind and patient. He
+														makes getting to my dialysis appointments
+														stress-free."
+													</div>
+													<div class="reviews__user">
+														<div class="reviews__name">Rider</div>
+														<div class="reviews__address">
+															Jane, Houston, TX
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
 
-                    <div class="reviews__navigation">
-                        <button class="reviews__btn reviews__btn-prev">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70" fill="none">
-                                <path d="M45 35H25" stroke="#212A53" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M35 45L25 35L35 25" stroke="#212A53" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                        </button>
+										<div class="swiper-slide">
+											<div class="reviews__wrapper">
+												<div class="reviews__item">
+													<div class="reviews__text">
+														“Jane, my driver, is always so kind and patient. He
+														makes getting to my dialysis appointments
+														stress-free."
+													</div>
+													<div class="reviews__user">
+														<div class="reviews__name">Rider</div>
+														<div class="reviews__address">
+															Jane, Houston, TX
+														</div>
+													</div>
+												</div>
 
-                        <div class="reviews__pagination reviews__pagination-swiper"></div>
+												<div class="reviews__item">
+													<div class="reviews__text">
+														“Jane, my driver, is always so kind and patient. He
+														makes getting to my dialysis appointments
+														stress-free."
+													</div>
+													<div class="reviews__user">
+														<div class="reviews__name">Rider</div>
+														<div class="reviews__address">
+															Jane, Houston, TX
+														</div>
+													</div>
+												</div>
 
-                        <button class="reviews__btn reviews__btn-next">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70" fill="none">
-                                <path d="M25 35L45 35" stroke="#212A53" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M35 25L45 35L35 45" stroke="#212A53" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                        </button>
-                    </div>
-                </div>
+												<div class="reviews__item">
+													<div class="reviews__text">
+														“Jane, my driver, is always so kind and patient. He
+														makes getting to my dialysis appointments
+														stress-free."
+													</div>
+													<div class="reviews__user">
+														<div class="reviews__name">Rider</div>
+														<div class="reviews__address">
+															Jane, Houston, TX
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
 
-            </div>
-        </div>
-    </section>
+								<div class="reviews__navigation">
+									<button class="reviews__btn reviews__btn-prev">
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											width="70"
+											height="70"
+											viewBox="0 0 70 70"
+											fill="none"
+										>
+											<path
+												d="M45 35H25"
+												stroke="#212A53"
+												stroke-width="2"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+											/>
+											<path
+												d="M35 45L25 35L35 25"
+												stroke="#212A53"
+												stroke-width="2"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+											/>
+										</svg>
+									</button>
 
-    <section class="section">
-        <div class="container container-small">
-            <div class="watch">
-                <h2 class="watch__title">Watch more testimonials</h2>
-                <div class="watch__container">
-                    <div class="watch__item">
-                        <img class="watch__preview" src="assets/img/watch/video1.jpg">
-                    </div>
-                    <div class="watch__item">
-                        <img class="watch__preview" src="assets/img/watch/video2.jpg">
-                    </div>
-                    <div class="watch__item">
-                        <img class="watch__preview" src="assets/img/watch/video3.jpg">
-                    </div>
-                </div>
+									<div
+										class="reviews__pagination reviews__pagination-swiper"
+									></div>
 
-                <div class="modal">
-                    <div class="modal__screen">
-                        <iframe width="800" height="500" title="The Witcher Music &amp; Ambience | Peaceful Night in Toussaint in 4K" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+									<button class="reviews__btn reviews__btn-next">
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											width="70"
+											height="70"
+											viewBox="0 0 70 70"
+											fill="none"
+										>
+											<path
+												d="M25 35L45 35"
+												stroke="#212A53"
+												stroke-width="2"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+											/>
+											<path
+												d="M35 25L45 35L35 45"
+												stroke="#212A53"
+												stroke-width="2"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+											/>
+										</svg>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
 
-                        <button class="modal__close">
-                            <svg width="40px" height="40px" viewBox="-0.5 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<section class="section">
+					<div class="container container_small">
+						<div class="watch">
+							<h2 class="watch__title">Watch more testimonials</h2>
+							<div class="watch__container">
+								<div class="watch__item">
+									<img
+										class="watch__preview"
+										src="assets/img/watch/video1.jpg"
+									/>
+								</div>
+								<div class="watch__item">
+									<img
+										class="watch__preview"
+										src="assets/img/watch/video2.jpg"
+									/>
+								</div>
+								<div class="watch__item">
+									<img
+										class="watch__preview"
+										src="assets/img/watch/video3.jpg"
+									/>
+								</div>
+							</div>
 
-                                <g id="SVGRepo_bgCarrier" stroke-width="0"/>
-                                
-                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
-                                
-                                <g id="SVGRepo_iconCarrier"> <path d="M3 21.32L21 3.32001" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/> <path d="M3 3.32001L21 21.32" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/> </g>
+							<div class="watch__btn">
+								Learn More
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="25"
+									height="24"
+									viewBox="0 0 25 24"
+									fill="none"
+								>
+									<path
+										d="M6.5 12H16.5"
+										stroke="white"
+										stroke-width="1.5"
+										stroke-linecap="square"
+										stroke-linejoin="round"
+									/>
+									<path
+										d="M12.5 7L17.5 12L12.5 17"
+										stroke="white"
+										stroke-width="1.5"
+										stroke-linecap="square"
+									/>
+								</svg>
+							</div>
 
-                                </svg>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+							<div class="modal">
+								<div class="modal__screen">
+									<iframe
+										width="800"
+										height="500"
+										title="The Witcher Music &amp; Ambience | Peaceful Night in Toussaint in 4K"
+										frameborder="0"
+										allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+										referrerpolicy="strict-origin-when-cross-origin"
+										allowfullscreen
+									></iframe>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="assets/js/slider.js"></script>
-    <script src="assets/js/popup.js"></script>
-</body>
+									<button class="modal__close">
+										<svg
+											width="40px"
+											height="40px"
+											viewBox="-0.5 0 25 25"
+											fill="none"
+											xmlns="http://www.w3.org/2000/svg"
+										>
+											<g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+											<g
+												id="SVGRepo_tracerCarrier"
+												stroke-linecap="round"
+												stroke-linejoin="round"
+											/>
+
+											<g id="SVGRepo_iconCarrier">
+												<path
+													d="M3 21.32L21 3.32001"
+													stroke="#000000"
+													stroke-width="1.5"
+													stroke-linecap="round"
+													stroke-linejoin="round"
+												/>
+												<path
+													d="M3 3.32001L21 21.32"
+													stroke="#000000"
+													stroke-width="1.5"
+													stroke-linecap="round"
+													stroke-linejoin="round"
+												/>
+											</g>
+										</svg>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="section">
+					<div class="container container_small">
+						<div class="book-ride">
+							<h2 class="book-ride__title">Book your ride today!</h2>
+							<button class="book-ride__btn">
+								Book Now!
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="25"
+									height="24"
+									viewBox="0 0 25 24"
+									fill="none"
+								>
+									<path
+										d="M6.5 12H16.5"
+										stroke="white"
+										stroke-width="1.5"
+										stroke-linecap="square"
+										stroke-linejoin="round"
+									/>
+									<path
+										d="M12.5 7L17.5 12L12.5 17"
+										stroke="white"
+										stroke-width="1.5"
+										stroke-linecap="square"
+									/>
+								</svg>
+							</button>
+						</div>
+					</div>
+				</section>
+			</main>
+
+			<footer class="footer">
+				<div class="container">
+					<div class="footer__inner">
+						<div class="footer__top">
+							<img
+								class="footer__logo"
+								src="assets/img/logo/logo-footer.svg"
+								alt="logo"
+							/>
+
+							<div class="socials">
+								<a class="socials__link" href="#">
+									<img
+										class="socials__logo"
+										src="assets/img/logo/Facebook.svg"
+									/>
+								</a>
+								<a class="socials__link" href="#">
+									<img
+										class="socials__logo"
+										src="assets/img/logo/Twitter.svg"
+									/>
+								</a>
+								<a class="socials__link" href="#">
+									<img
+										class="socials__logo"
+										src="assets/img/logo/Linkedin.svg"
+									/>
+								</a>
+							</div>
+						</div>
+
+						<nav class="nav footer__nav">
+							<ul class="nav-wrapper footer__wrapper">
+								<li class="nav__list">
+									<a class="nav__link footer__link" href="#">About us</a>
+								</li>
+								<li class="nav__list">
+									<a class="nav__link footer__link" href="#">Services</a>
+								</li>
+								<li class="nav__list">
+									<a class="nav__link footer__link" href="#">Partners</a>
+								</li>
+								<li class="nav__list">
+									<a class="nav__link footer__link" href="#">Drivers</a>
+								</li>
+								<li class="nav__list">
+									<a class="nav__link footer__link" href="#"
+										>Patients/Caregivers</a
+									>
+								</li>
+								<li class="nav__list">
+									<a class="nav__link footer__link" href="#">Contact Us</a>
+								</li>
+							</ul>
+						</nav>
+
+						<div class="footer__line"></div>
+
+						<div class="footer__bottom">
+							<div class="privacy">
+								<div class="privacy__text">Privacy Policy</div>
+								<div class="privacy__text">©2023 Kerico N.E.M.T Services</div>
+							</div>
+
+							<div class="contact">
+								<div class="contact__phones">
+									<div class="contact__wrapper">
+										<span class="contact__title">Tell Free:</span>
+										<span class="contact__text">877-353-9857</span>
+									</div>
+									<div class="contact__wrapper">
+										<span class="contact__title">Local:</span>
+										<span class="contact__text">270-809-7245</span>
+									</div>
+								</div>
+								<div class="contact__address">
+									<div class="contact__wrapper">
+										<span class="contact__title">Address:</span>
+										<span class="contact__text"
+											>6187 West Loop South, Suite 400, Bellaire, TX 72301</span
+										>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+		<script src="assets/js/burger-menu.js"></script>
+		<script src="assets/js/slider.js"></script>
+		<script src="assets/js/popup.js"></script>
+	</body>
 </html>
