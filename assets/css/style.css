@@ -244,6 +244,7 @@ body {
 	align-items: flex-start;
 	gap: 32px;
 	background-color: #fff;
+	border-radius: 6px;
 }
 
 .benefits__item {
@@ -770,43 +771,70 @@ body {
 	color: #fff;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1440px) {
+	/* container */
+
+	.container {
+		padding: 0;
+	}
+
 	/* header */
 
 	.header {
-		/* padding: 16px 24px 16px 24px; */
-		z-index: 3;
+		padding: 25px;
 	}
 
 	/* intro */
 
 	.intro {
-		margin-top: 74px;
-		background-size: 328px 298px;
+		margin-top: 0px;
+		background-size: 550px 450px;
 		height: 600px;
 		padding: 48px 0 48px 0;
-		background-position: bottom 10% center;
-	}
-
-	.intro-inner {
-		padding: 0 0 40px 0;
-		width: 100%;
-		align-items: center;
+		background-position: right 4% center;
 	}
 
 	.intro__title {
-		width: 328px;
-		font-size: 38px;
-		color: #212a53;
+		font-size: 50px;
 	}
 
-	.intro__background {
-		width: 328px;
-		height: 293px;
-		background-size: cover;
-		margin: 0 auto;
-		position: relative;
-		top: 0;
+	.intro-inner {
+		left: 2%;
+	}
+
+	/* health */
+
+	.health {
+		padding: 35px;
+	}
+
+	/* journey */
+
+	.journey__subtitle {
+		font-size: 20px;
+	}
+
+	.journey__title {
+		width: 498px;
+		font-size: 38px;
+	}
+
+	.journey__text {
+		font-size: 17px;
+	}
+
+	/* benefits */
+
+	.benefits {
+		margin-left: 40px;
+	}
+
+	.benefits__title {
+		font-size: 21px;
+	}
+
+	.benefits__text {
+		font-size: 17px;
 	}
 }
 
@@ -878,7 +906,130 @@ body {
 		margin-bottom: 48px;
 		border: 0;
 	}
+
+	.intro {
+		margin-top: 74px;
+		background-size: 460px 405px;
+		height: 705px;
+		padding: 48px 0 48px 0;
+		background-position: bottom 10% center;
+	}
+
+	.intro-inner {
+		padding: 0 0 40px 0;
+		width: 100%;
+		align-items: center;
+		left: 0;
+	}
+
+	.intro__title {
+		width: 460px;
+		font-size: 45px;
+		color: #212a53;
+	}
+
+	/* health */
+
+	.health {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	/* journey */
+
+	.journey__title {
+		width: 461px;
+		font-size: 34px;
+	}
+
+	.journey__background {
+		margin-bottom: 40px;
+	}
+
+	/* benefits */
+
+	.benefits {
+		margin: 0;
+	}
 }
 
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 767px) {
+	/* header */
+
+	.header {
+		z-index: 3;
+	}
+
+	/* intro */
+
+	.intro {
+		margin-top: 74px;
+		background-size: 328px 298px;
+		height: 600px;
+		padding: 48px 0 48px 0;
+		background-position: bottom 10% center;
+	}
+
+	.intro-inner {
+		padding: 0 0 40px 0;
+		width: 100%;
+		align-items: center;
+	}
+
+	.intro__title {
+		width: 328px;
+		font-size: 38px;
+		color: #212a53;
+	}
+
+	/* health */
+
+	.health {
+		padding: 64px 0;
+	}
+
+	/* journey */
+
+	.journey {
+		align-items: center;
+	}
+
+	.journey__subtitle {
+		width: 328px;
+	}
+
+	.journey__title {
+		font-size: 30px;
+		width: 328px;
+	}
+
+	.journey__text {
+		font-size: 16px;
+		width: 328px;
+	}
+
+	.journey__background {
+		width: 328px;
+		height: 258px;
+	}
+
+	/* benefits */
+
+	.benefits {
+		padding: 24px;
+	}
+
+	.benefits__item {
+		width: 280px;
+	}
+
+	.benefits__title {
+		font-size: 20px;
+	}
+
+	.benefits__text {
+		font-size: 16px;
+		width: 280px;
+	}
 }
