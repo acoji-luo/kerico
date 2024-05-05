@@ -823,6 +823,11 @@ body {
 		font-size: 17px;
 	}
 
+	.journey__background {
+		position: relative;
+		bottom: -9px;
+	}
+
 	/* benefits */
 
 	.benefits {
@@ -835,6 +840,55 @@ body {
 
 	.benefits__text {
 		font-size: 17px;
+	}
+
+	/* partner */
+
+	.partner__subtitle {
+		font-size: 20px;
+	}
+
+	.partner__title {
+		font-size: 38px;
+	}
+
+	.partner__text {
+		font-size: 17px;
+	}
+
+	/* offers */
+
+	.offers__title {
+		font-size: 21px;
+	}
+
+	.offers__text {
+		font-size: 17px;
+	}
+
+	/* drivers */
+
+	.drivers {
+		/* position: relative;
+		left: 2%; */
+		justify-content: center;
+	}
+
+	.drivers__background {
+		width: 475px;
+		height: 700px;
+	}
+
+	.drivers__join {
+		margin: 0;
+	}
+
+	.drivers__subtitle {
+		margin-left: 40px;
+	}
+
+	.drivers__title {
+		margin-left: 40px;
 	}
 }
 
@@ -923,6 +977,7 @@ body {
 	}
 
 	.intro__title {
+		text-align: center;
 		width: 460px;
 		font-size: 45px;
 		color: #212a53;
@@ -951,6 +1006,41 @@ body {
 
 	.benefits {
 		margin: 0;
+	}
+
+	/* offers */
+
+	.offers {
+		grid-template-columns: repeat(2, 350px);
+		justify-content: center;
+	}
+
+	.offers__title {
+		width: 260px;
+	}
+
+	/* drivers */
+
+	.drivers {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.drivers__background {
+		margin-bottom: 40px;
+		width: 550px;
+		height: 600px;
+	}
+
+	.drivers__subtitle {
+		margin-left: 0;
+		margin-bottom: 16px;
+		font-size: 20px;
+	}
+
+	.drivers__title {
+		margin-left: 0;
+		font-size: 38px;
 	}
 }
 
@@ -1022,6 +1112,7 @@ body {
 
 	.benefits__item {
 		width: 280px;
+		gap: 16px;
 	}
 
 	.benefits__title {
@@ -1031,5 +1122,63 @@ body {
 	.benefits__text {
 		font-size: 16px;
 		width: 280px;
+	}
+
+	/* partner */
+
+	.partner__title {
+		width: 328px;
+		font-size: 30px;
+		text-align: center;
+	}
+
+	.partner__text {
+		width: 328px;
+		font-size: 16px;
+		text-align: center;
+	}
+
+	/* offers */
+
+	.offers {
+		grid-template-columns: repeat(1, 328px);
+	}
+
+	.offers__title {
+		font-size: 20px;
+	}
+
+	.offers__text {
+		font-size: 16px;
+	}
+
+	/* drivers */
+
+	.drivers__join {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.drivers__background {
+		width: 328px;
+		height: 360px;
+	}
+
+	.drivers__subtitle {
+		align-self: flex-start;
+	}
+
+	.drivers__title {
+		margin-bottom: 40px;
+		align-self: flex-start;
+		font-size: 30px;
+		width: 328px;
+	}
+
+	.drivers__benefits {
+		padding: 0;
+		align-self: flex-start;
 	}
 }
